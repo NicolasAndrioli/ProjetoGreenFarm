@@ -1,0 +1,5 @@
+<resources>
+    <color name="branco">#FFFFFF</color> <!-- Cor branca -->
+    <color name="preto">#000000</color> <!-- Cor preta -->
+    <color name="verde">66cc66</color>
+</resources>
