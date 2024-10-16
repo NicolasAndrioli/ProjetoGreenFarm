@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">ProjetoGreenFarm</string>
     <string name="entrar">Entrar</string>
-
-
-
+    <string name="text_esqueci_senha">Esqueceu a senha?</string>
+    <string name="text_cadastrar">Cadastre-se</string>
+    <string name="title_cadastro">Criar Nova </string>
+    <string name="title_cadastro1">Conta</string>
 
 
 
