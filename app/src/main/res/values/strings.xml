@@ -5,7 +5,10 @@
     <string name="text_cadastrar">Cadastre-se</string>
     <string name="title_cadastro">Criar Nova </string>
     <string name="title_cadastro1">Conta</string>
-
+    <string name="title_esqueci_senha">Redefinição</string>
+    <string name="title_esqueci_senha1">de Senha!</string>
+    <string name="title_complemento">Insira seu e-mail e enviaremos um link </string>
+    <string name="title_complemento1">para recuperação da sua senha</string>
 
 
 </resources>

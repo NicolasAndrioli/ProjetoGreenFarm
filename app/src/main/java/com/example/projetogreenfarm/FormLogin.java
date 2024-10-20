@@ -14,6 +14,8 @@ public class FormLogin extends AppCompatActivity {
 
     private TextView text_cadastrar;
 
+    private TextView text_esqueci_senha;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,7 @@ public class FormLogin extends AppCompatActivity {
             actionBar.hide();
         }
         IniciarComponentes();
+        IniciarComponentes1();
 
         text_cadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,10 +39,23 @@ public class FormLogin extends AppCompatActivity {
 
             }
         });
+
+        text_esqueci_senha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1 = new Intent(FormLogin.this, FormRedefinirSenha.class);
+                startActivity(intent1);
+            }
+        });
     }
 
     private void IniciarComponentes(){
         text_cadastrar = findViewById(R.id.text_cadastrar);
+    }
+
+    private void IniciarComponentes1(){
+        text_esqueci_senha = findViewById(R.id.text_esqueci_senha);
     }
 }
 
