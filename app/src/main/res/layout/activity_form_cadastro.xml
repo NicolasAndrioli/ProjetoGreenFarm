@@ -119,6 +119,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_inscreverse"
         style="@style/Button"
         android:layout_marginTop="4dp"
         android:text="Inscrever-se"

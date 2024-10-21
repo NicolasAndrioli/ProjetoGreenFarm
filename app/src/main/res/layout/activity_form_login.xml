@@ -57,9 +57,10 @@
         <EditText
             android:id="@+id/edit_cpf"
             style="@style/Edit_Text"
-            android:hint="Digite seu CPF"
+            android:hint="Email"
+            android:drawableRight="@drawable/ic_email"
             android:maxLength="20"
-            android:inputType="number"
+            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
